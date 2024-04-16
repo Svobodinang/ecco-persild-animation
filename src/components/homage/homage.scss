@@ -108,6 +108,8 @@
                 }
 
                 &__img {
+                    --from-x: #{em(651 + 117, $basePxDp)};
+
                     position: absolute;
                     width: em(592, $basePxDp);
                     bottom: em(-6, $basePxDp);
@@ -150,6 +152,8 @@
                     }
 
                     &--2 {
+                        --from-scale: 0;
+
                         width: em(273, $basePxDp);
                         bottom: em(113, $basePxDp);
                         left: em(312, $basePxDp);

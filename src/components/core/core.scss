@@ -91,6 +91,8 @@
                     position: absolute;
 
                     &--1 {
+                        --k-progress-x: 0.2;
+
                         width: em(612, $basePxDp);
                         bottom: em(-619, $basePxDp);
                         left: em(-232, $basePxDp);
@@ -103,6 +105,8 @@
                     }
 
                     &--2 {
+                        --k-progress-x: -0.4;
+
                         width: em(858, $basePxDp);
                         bottom: em(-803, $basePxDp);
                         left: em(49, $basePxDp);

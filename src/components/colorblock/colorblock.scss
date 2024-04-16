@@ -157,6 +157,8 @@
             }
 
             &--2 {
+                --k-progress-x: 0.5;
+
                 width: em(365, $basePxDp);
                 top: em(-218 - 546, $basePxDp);
                 left: em(0, $basePxDp);
@@ -169,6 +171,8 @@
             }
 
             &--3 {
+                --k-progress-x: -0.2;
+
                 width: em(1113, $basePxDp);
                 bottom: em(32, $basePxDp);
                 left: em(-362, $basePxDp);

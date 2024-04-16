@@ -51,6 +51,9 @@
 
         &__img {
             &--2 {
+                --k-progress-rotate: 0.2;
+
+                transform: rotate(calc(var(--parallax-progress) * 180deg * var(--k-progress-rotate))) !important;
                 position: absolute;
                 top: em(-68, $basePxDp);
                 right: em(38.4, $basePxDp);
@@ -64,6 +67,8 @@
             }
 
             &--3 {
+                --from-x: #{em(-51 - 328, $basePxDp)};
+
                 width: em(643, $basePxDp);
 
                 @media (--viewport-portrait-layout) {

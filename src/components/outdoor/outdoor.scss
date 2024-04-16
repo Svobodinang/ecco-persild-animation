@@ -21,6 +21,8 @@
             }
 
             &--1 {
+                --from-x: #{em(-853, $basePxDp)};
+
                 width: em(955, $basePxDp);
                 top: em(-122, $basePxDp);
                 left: em(-263, $basePxDp);

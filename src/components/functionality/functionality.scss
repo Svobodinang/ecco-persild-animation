@@ -70,6 +70,8 @@
             }
 
             &--2 {
+                --k-progress-x: -0.3;
+
                 width: em(629, $basePxDp);
 
                 @media (--viewport-portrait-layout) {
@@ -79,6 +81,8 @@
             }
 
             &--3 {
+                --k-progress-x: 0.2;
+
                 position: absolute;
                 width: em(1369, $basePxDp);
                 top: em(-509, $basePxDp);
@@ -92,6 +96,8 @@
             }
 
             &--4 {
+                --from-x: #{em(-1016, $basePxDp)};
+
                 width: em(492, $basePxDp);
 
                 @media (--viewport-portrait-layout) {

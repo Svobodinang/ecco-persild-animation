@@ -102,6 +102,8 @@
             }
 
             &__img {
+                --k-progress-rotate: 0.1;
+
                 position: absolute;
                 width: em(1400, $basePxDp);
                 bottom: em(367, $basePxDp);

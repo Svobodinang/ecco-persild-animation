@@ -13,6 +13,8 @@
         }
 
         &__img {
+            --from-x: #{em(565 + 36, $basePxDp)};
+
             position: absolute;
             width: em(565, $basePxDp);
             top: em(-524, $basePxDp);

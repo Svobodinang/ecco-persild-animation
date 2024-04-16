@@ -90,6 +90,8 @@
                 }
 
                 &--2 {
+                    --k-progress-y: 0.2;
+
                     bottom: em(-249, $basePxDp);
                     right: em(-57, $basePxDp);
                     width: em(945, $basePxDp);
@@ -100,6 +102,8 @@
                 }
 
                 &--3 {
+                    --from-x: #{em(302 + 58, $basePxDp)};
+
                     bottom: em(82, $basePxDp);
                     right: em(58, $basePxDp);
                     width: em(302, $basePxDp);
