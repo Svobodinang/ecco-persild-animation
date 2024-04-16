@@ -11,6 +11,7 @@ module.exports = () => ({
             css
         ]
     },
-    plugins: getPlugins()
+    plugins: getPlugins(),
+    outputDir: 'dist'
 });
 
