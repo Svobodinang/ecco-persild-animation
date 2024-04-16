@@ -1,0 +1,5 @@
+@import "./vars-scss.scss";
+
+#tpl {
+    --color-accent: #{$color-red};
+}
